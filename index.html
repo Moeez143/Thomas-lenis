@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lenis</title>
+    <link rel="stylesheet" href="https://unpkg.com/lenis@1.1.18/dist/lenis.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .grid>div {
+            grid-row: var(--r);
+            grid-column: var(--c);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="w-full bg-gray-900">
+        <div class="grid grid-cols-8 grid-rows-20 gap-2 overflow-hidden">
+            <div class="selected col-span-1 row-span-1" style="--r: 1; --c: 3;"><img
+                    src="https://tympanus.net/Development/ScrollAnimationsGrid/4.516b9c03.jpg" alt="Image 1" /></div>
+            <div class="selected col-span-1 row-span-1" style="--r: 3; --c: 6;"><img
+                    src="https://tympanus.net/Development/ScrollAnimationsGrid/5.95d97ae8.jpg" alt="Image 2" /></div>
+            <div class="selected col-span-1 row-span-1" style="--r: 5; --c: 2;"><img
+                    src="https://tympanus.net/Development/ScrollAnimationsGrid/6.56a5d53b.jpg" alt="Image 3" /></div>
+            <div class="selected col-span-1 row-span-1" style="--r: 8; --c: 4;"><img
+                    src="https://tympanus.net/Development/ScrollAnimationsGrid/9.27ccf354.jpg" alt="Image 4" /></div>
+            <div class="selected col-span-1 row-span-1" style="--r: 7; --c: 1;"><img
+                    src="https://tympanus.net/Development/ScrollAnimationsGrid/8.0bda5054.jpg" alt="Image 5" /></div>
+            <div class="selected col-span-1 row-span-1" style="--r: 10; --c: 5;"><img
+                    src="https://tympanus.net/Development/ScrollAnimationsGrid/1.1770e3b3.jpg" alt="Image 6" /></div>
+            <div class="selected col-span-1 row-span-1" style="--r: 12; --c: 8;"><img
+                    src="https://tympanus.net/Development/ScrollAnimationsGrid/20.cae33766.jpg" alt="Image 7" /></div>
+            <div class="selected col-span-1 row-span-1" style="--r: 14; --c: 3;"><img
+                    src="https://tympanus.net/Development/ScrollAnimationsGrid/2.07ca36b5.jpg" alt="Image 8" /></div>
+            <div class="selected col-span-1 row-span-1" style="--r: 16; --c: 7;"><img
+                    src="https://tympanus.net/Development/ScrollAnimationsGrid/19.c66c7e95.jpg" alt="Image 9" /></div>
+            <div class="selected col-span-1 row-span-1" style="--r: 18; --c: 2;"><img
+                    src="https://tympanus.net/Development/ScrollAnimationsGrid/3.f6f48295.jpg" alt="Image 10" />
+            </div>
+            <div class="selected col-span-1 row-span-1" style="--r: 2; --c: 5;"><img
+                    src="https://tympanus.net/Development/ScrollAnimationsGrid/4.516b9c03.jpg" alt="Image 11" />
+            </div>
+            <div class="selected col-span-1 row-span-1" style="--r: 4; --c: 7;"><img
+                    src="https://tympanus.net/Development/ScrollAnimationsGrid/5.95d97ae8.jpg" alt="Image 12" />
+            </div>
+            <div class="selected col-span-1 row-span-1" style="--r: 6; --c: 1;"><img
+                    src="https://tympanus.net/Development/ScrollAnimationsGrid/1.1770e3b3.jpg" alt="Image 13" />
+            </div>
+            <div class="selected col-span-1 row-span-1" style="--r: 9; --c: 6;"><img
+                    src="https://tympanus.net/Development/ScrollAnimationsGrid/8.0bda5054.jpg" alt="Image 14" />
+            </div>
+            <div class="selected col-span-1 row-span-1" style="--r: 11; --c: 4;"><img src="
+https://tympanus.net/Development/ScrollAnimationsGrid/10.f7990335.jpg" alt="Image 15" />
+            </div>
+            <div class="selected col-span-1 row-span-1" style="--r: 13; --c: 2;"><img src="
+https://tympanus.net/Development/ScrollAnimationsGrid/10.f7990335.jpg" alt="Image 16" />
+            </div>
+            <div class="selected col-span-1 row-span-1" style="--r: 15; --c: 8;"><img src="
+https://tympanus.net/Development/ScrollAnimationsGrid/10.f7990335.jpg" alt="Image 17" />
+            </div>
+            <div class="selected col-span-1 row-span-1" style="--r: 17; --c: 5;"><img src="
+https://tympanus.net/Development/ScrollAnimationsGrid/10.f7990335.jpg" alt="Image 18" />
+            </div>
+            <div class="selected col-span-1 row-span-1" style="--r: 19; --c: 7;"><img src="
+https://tympanus.net/Development/ScrollAnimationsGrid/10.f7990335.jpg" alt="Image 19" />
+            </div>
+            <div class="selected col-span-1 row-span-1" style="--r: 20; --c: 1;"><img src="
+https://tympanus.net/Development/ScrollAnimationsGrid/10.f7990335.jpg" alt="Image 20" />
+            </div>
+        </div>
+        <div class="h-screen fixed w-full top-0 left-0 flex justify-center items-center flex-col text-white">
+            <h1 class="text-7xl mb-3 font-medium">Thomas Vance</h1>
+            <h2 class="text-xl font-normal">並外れたファッション</h2>
+        </div>
+
+        <div class="h-screen flex justify-center items-center bg-pink-100 relative z-10">
+            <p class="text-4xl px-20">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam nostrum consectetur illo? Aperiam animi adipisci quo officiis? Possimus iste quisquam, laborum itaque sapiente esse animi adipisci. Doloribus obcaecati adipisci tempora. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem odit quod suscipit, corrupti accusantium, numquam sit sapiente commodi magni neque excepturi, quae iusto blanditiis optio earum dolores ratione quam nam!</p>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://unpkg.com/lenis@1.1.18/dist/lenis.min.js"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>
